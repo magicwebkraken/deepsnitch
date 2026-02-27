@@ -2641,7 +2641,7 @@ const Image$1 = reactExports.memo(Image),
         cmc_id: 825,
       },
       usdc: {
-        address: "0xComingSoon",
+        address: "0x49366fD402DdED8adDa921B40640D6b2143A3F7a",
         icon: "images/usdc.png",
         label: "USDC",
         cmc_id: 3408,
@@ -8703,14 +8703,14 @@ function Layout() {
                               variant: "primary",
                               onClick: () =>
                                 window.open(
-                                  "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xComingSoon",
+                                  "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0x49366fD402DdED8adDa921B40640D6b2143A3F7a",
                                   "_blank"
                                 ),
                               onKeyDown: (X) => {
                                 (X.key === "Enter" || X.key === " ") &&
                                   (X.preventDefault(),
                                   window.open(
-                                    "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xComingSoon",
+                                    "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0x49366fD402DdED8adDa921B40640D6b2143A3F7a",
                                     "_blank"
                                   ));
                               },

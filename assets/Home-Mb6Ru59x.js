@@ -3035,7 +3035,7 @@ function Kt() {
           e.jsxs(e.Fragment, {
             children: [
               e.jsx("iframe", {
-                src: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0xcomingsoon&theme=dark",
+                src: "https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x49366fD402DdED8adDa921B40640D6b2143A3F7a&theme=dark",
                 style: { width: "90%", height: "470px", border: "none", outline: "none", borderRadius: "10px" }
               })
             ],
@@ -3893,7 +3893,7 @@ function Na() {
                                     variant: "primary",
                                     onClick: () => {
                                       window.open(
-                                        "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xComingSoon",
+                                        "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0x49366fD402DdED8adDa921B40640D6b2143A3F7a",
                                         "_blank"
                                       );
                                     },
