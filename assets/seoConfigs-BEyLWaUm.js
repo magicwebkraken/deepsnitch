@@ -352,7 +352,7 @@ const b = [
   A = {
     home: {
       title:
-        "DeepSnitch AI ($DSNT) Presale: AI Agents for On-Chain Crypto Alpha",
+        "DeepSnitch AI ($DSNT): AI Agents for On-Chain Crypto Alpha",
       description:
         "Be early to DeepSnitch AI. $DSNT token is live – access real-time market intelligence from autonomous AI agents.",
       canonical: o,
