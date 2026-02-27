@@ -174,8 +174,8 @@ const j = n.memo(
             answer: "The price of $DSNT is determined by open market supply and demand. As with any digital asset, price movements can be volatile and are influenced by market conditions."
           },
           8: {
-            question: "Is liquidity locked?",
-            answer: "Liquidity management details are publicly verifiable. Any locked liquidity or token allocation structure can be viewed directly on-chain for full transparency."
+            question: "How is token transparency ensured?",
+            answer: "All $DSNT transactions, supply metrics, and contract activity are fully transparent and verifiable on-chain. We encourage holders to independently review the contract and monitor activity through blockchain explorers."
           },
           9: {
             question: "Why is Deep Snitch AI gaining attention?",
