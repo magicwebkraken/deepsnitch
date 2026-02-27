@@ -3892,49 +3892,10 @@ function Na() {
                                   e.jsx(De, {
                                     variant: "primary",
                                     onClick: () => {
-                                      const A = window.innerWidth < 768;
-                                      console.log(
-                                        "📱 [HeroBuyButton] isMobile:",
-                                        A,
-                                        "isConnected:",
-                                        j,
-                                        "width:",
-                                        window.innerWidth
-                                      ),
-                                        A
-                                          ? (console.log(
-                                              "📱 Mobile device with connected wallet - scrolling to presale widget"
-                                            ),
-                                            setTimeout(() => {
-                                              const q =
-                                                document.querySelector(
-                                                  '[class*="PresaleWidget"]'
-                                                ) ||
-                                                document.getElementById(
-                                                  "presale-widget"
-                                                ) ||
-                                                document.querySelector("form");
-                                              q
-                                                ? (console.log(
-                                                    "✅ Found presale widget, scrolling to it"
-                                                  ),
-                                                  q.scrollIntoView({
-                                                    behavior: "smooth",
-                                                    block: "center",
-                                                  }))
-                                                : (console.log(
-                                                    "⚠️ Presale widget not found, using fallback scroll"
-                                                  ),
-                                                  window.scrollBy({
-                                                    top: 600,
-                                                    behavior: "smooth",
-                                                  }));
-                                            }, 100))
-                                          : j ||
-                                            (console.log(
-                                              "📱 Opening wallet connection modal"
-                                            ),
-                                            _(!0));
+                                      window.open(
+                                        "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xComingSoon",
+                                        "_blank"
+                                      );
                                     },
                                     style: {
                                       borderRadius: "56px",
@@ -3946,35 +3907,7 @@ function Na() {
                                     },
                                     children: o("Buy $DSNT"),
                                   }),
-                                  e.jsxs("div", {
-                                    className:
-                                      "flex flex-col md:flex-row gap-4 xl:gap-8 items-center",
-                                    children: [
-                                      e.jsx("span", {
-                                        className: "text-sm",
-                                        style: {
-                                          color: "rgba(121, 121, 121, 1)",
-                                        },
-                                        children: "Audited and approved by",
-                                      }),
-                                      e.jsxs("div", {
-                                        className:
-                                          "flex md:flex-row gap-4 xl:gap-8",
-                                        children: [
-                                          e.jsx(oe, {
-                                            url: "assets/icons/coinsult.svg",
-                                            alt: "audited",
-                                            className: "h-[24px]",
-                                          }),
-                                          e.jsx(oe, {
-                                            url: "assets/icons/solidproof.svg",
-                                            alt: "audited",
-                                            className: "h-[24px]",
-                                          }),
-                                        ],
-                                      }),
-                                    ],
-                                  }),
+                                  
                                 ],
                               }),
                               e.jsx(ye.div, {

@@ -249,24 +249,7 @@ const f = `
             name: "x",
           }),
         }),
-        e.jsx("a", {
-          href: "https://deepsnitch-ai.gitbook.io/deepsnitch/",
-          target: "_blank",
-          rel: "noopener noreferrer",
-          className:
-            "bg-[#D6FC70]/10 hover:bg-[#D6FC70]/20 border border-[#D6FC70]/30 hover:border-[#D6FC70]/50 rounded-md px-2 py-1 transition-all duration-300 hover:scale-105",
-          children: e.jsxs("div", {
-            className: "flex items-center gap-1.5",
-            children: [
-              e.jsx(c, { className: "w-[16px] h-[16px] text-[#D6FC70]" }),
-              e.jsx("span", {
-                className:
-                  "text-[11px] font-medium text-[#D6FC70] uppercase tracking-wide",
-                children: "Docs",
-              }),
-            ],
-          }),
-        }),
+        
       ],
     })
   ),
@@ -341,30 +324,7 @@ const f = `
             : 15;
         return `${x}/${g}`;
       }, [t]);
-    return e.jsxs(e.Fragment, {
-      children: [
-        e.jsxs("span", {
-          className: "font-VT323 text-white/90 text-base tracking-wide",
-          children: [n("home.stage"), " ", h],
-        }),
-        e.jsx("span", {
-          className: "text-white/20 font-VT323 text-base mx-6",
-          children: "|",
-        }),
-        e.jsxs("span", {
-          className: "font-VT323 text-white/90 text-base tracking-wide",
-          children: [n("home.currentPrice"), " $", m],
-        }),
-        e.jsx("span", {
-          className: "text-white/20 font-VT323 text-base mx-6",
-          children: "|",
-        }),
-        e.jsxs("span", {
-          className: "font-VT323 text-white/90 text-base tracking-wide",
-          children: ["$", l, " / $", d],
-        }),
-      ],
-    });
+    
   }),
   F = i.memo(({ presaleData: t }) =>
     e.jsxs(e.Fragment, {

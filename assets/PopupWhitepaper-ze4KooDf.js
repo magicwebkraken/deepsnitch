@@ -111,30 +111,7 @@ const y = ({ isOpen: t, onClose: a }) => {
               }),
             ],
           }),
-          e.jsx("div", {
-            className: "flex flex-col items-center space-y-4",
-            children: e.jsx("a", {
-              href: "https://deepsnitch-ai.gitbook.io/deepsnitch/",
-              target: "_blank",
-              rel: "noopener noreferrer",
-              className:
-                "bg-[#D6FC70]/10 hover:bg-[#D6FC70]/20 border border-[#D6FC70]/30 hover:border-[#D6FC70]/50 rounded-lg px-4 py-2.5 transition-all duration-300 hover:scale-105 shadow-sm hover:shadow-md",
-              children: e.jsxs("div", {
-                className: "flex items-center space-x-2.5",
-                children: [
-                  e.jsx("div", {
-                    className: "text-white",
-                    children: e.jsx(n, {}),
-                  }),
-                  e.jsx("span", {
-                    className:
-                      "text-sm font-medium text-[#D6FC70] uppercase tracking-wide",
-                    children: "Read on GitBook",
-                  }),
-                ],
-              }),
-            }),
-          }),
+          
         ],
       }),
     ],

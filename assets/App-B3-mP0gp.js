@@ -2641,7 +2641,7 @@ const Image$1 = reactExports.memo(Image),
         cmc_id: 825,
       },
       usdc: {
-        address: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+        address: "0xComingSoon",
         icon: "images/usdc.png",
         label: "USDC",
         cmc_id: 3408,
@@ -8701,18 +8701,21 @@ function Layout() {
                             })
                           : jsxRuntimeExports.jsx(Button$1, {
                               variant: "primary",
-                              onClick: De,
+                              onClick: () =>
+                                window.open(
+                                  "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xComingSoon",
+                                  "_blank"
+                                ),
                               onKeyDown: (X) => {
                                 (X.key === "Enter" || X.key === " ") &&
-                                  (X.preventDefault(), De());
+                                  (X.preventDefault(),
+                                  window.open(
+                                    "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xComingSoon",
+                                    "_blank"
+                                  ));
                               },
-                              disabled: z,
-                              "aria-label": z
-                                ? k("home.connecting", "Connecting wallet...")
-                                : k(
-                                    "CONNECT WALLET",
-                                    "Connect your cryptocurrency wallet"
-                                  ),
+                              disabled: !1,
+                              "aria-label": "Buy $DSNT on Uniswap",
                               "aria-describedby": "wallet-connection-help",
                               type: "button",
                               style: {
@@ -8723,50 +8726,11 @@ function Layout() {
                                 padding: "0 24px",
                                 fontSize: "24px",
                               },
-                              children: z
-                                ? jsxRuntimeExports.jsxs("div", {
-                                    className:
-                                      "flex items-center justify-center",
-                                    children: [
-                                      jsxRuntimeExports.jsxs("svg", {
-                                        className:
-                                          "animate-spin -ml-1 mr-2 h-5 w-5 text-green",
-                                        xmlns: "http://www.w3.org/2000/svg",
-                                        fill: "none",
-                                        viewBox: "0 0 24 24",
-                                        children: [
-                                          jsxRuntimeExports.jsx("circle", {
-                                            className: "opacity-25",
-                                            cx: "12",
-                                            cy: "12",
-                                            r: "10",
-                                            stroke: "currentColor",
-                                            strokeWidth: "4",
-                                          }),
-                                          jsxRuntimeExports.jsx("path", {
-                                            className: "opacity-75",
-                                            fill: "currentColor",
-                                            d: "M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z",
-                                          }),
-                                        ],
-                                      }),
-                                      jsxRuntimeExports.jsx("span", {
-                                        className:
-                                          "font-VT323 text-22 leading-22 tracking-1 whitespace-nowrap uppercase",
-                                        children: k(
-                                          "home.connecting",
-                                          "CONNECTING..."
-                                        ),
-                                      }),
-                                    ],
-                                  })
-                                : jsxRuntimeExports.jsx("span", {
-                                    className:
-                                      "font-VT323 text-22 leading-22 tracking-1 whitespace-nowrap uppercase",
-                                    children: k(
-                                      "CONNECT WALLET"
-                                    ),
-                                  }),
+                              children: jsxRuntimeExports.jsx("span", {
+                                className:
+                                  "font-VT323 text-22 leading-22 tracking-1 whitespace-nowrap uppercase",
+                                children: k("BUY $DSNT"),
+                              }),
                             }),
                       ],
                     }),
@@ -9079,27 +9043,7 @@ function Layout() {
                                     name: "x",
                                   }),
                                 }),
-                                jsxRuntimeExports.jsx("a", {
-                                  href: "https://deepsnitch-ai.gitbook.io/deepsnitch/",
-                                  className:
-                                    "bg-dark2 hover:bg-dark3 rounded-[12px] p-3 md:p-3 p-2 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_15px_rgba(214,252,112,0.3)] group",
-                                  target: "_blank",
-                                  rel: "noopener noreferrer",
-                                  "aria-label": "GitBook",
-                                  children: jsxRuntimeExports.jsx("svg", {
-                                    width: "24px",
-                                    height: "24px",
-                                    viewBox: "0 0 24 24",
-                                    role: "img",
-                                    xmlns: "http://www.w3.org/2000/svg",
-                                    className:
-                                      "w-[20px] h-[20px] md:w-[24px] md:h-[24px] text-white group-hover:text-[#D6FC70] transition-colors duration-300",
-                                    children: jsxRuntimeExports.jsx("path", {
-                                      d: "M10.802 17.77a.703.703 0 1 1-.002 1.406.703.703 0 0 1 .002-1.406m11.024-4.347a.703.703 0 1 1 .001-1.406.703.703 0 0 1-.001 1.406m0-2.876a2.176 2.176 0 0 0-2.174 2.174c0 .233.039.465.115.691l-7.181 3.823a2.165 2.165 0 0 0-1.784-.937c-.829 0-1.584.475-1.95 1.216l-6.451-3.402c-.682-.358-1.192-1.48-1.138-2.502.028-.533.212-.947.493-1.107.178-.1.392-.092.62.027l.042.023c1.71.9 7.304 3.847 7.54 3.956.363.169.565.237 1.185-.057l11.564-6.014c.17-.064.368-.227.368-.474 0-.342-.354-.477-.355-.477-.658-.315-1.669-.788-2.655-1.25-2.108-.987-4.497-2.105-5.546-2.655-.906-.474-1.635-.074-1.765.006l-.252.125C7.78 6.048 1.46 9.178 1.1 9.397.457 9.789.058 10.57.006 11.539c-.08 1.537.703 3.14 1.824 3.727l6.822 3.518a2.175 2.175 0 0 0 2.15 1.862 2.177 2.177 0 0 0 2.173-2.14l7.514-4.073c.38.298.853.461 1.337.461A2.176 2.176 0 0 0 24 12.72a2.176 2.176 0 0 0-2.174-2.174",
-                                      fill: "currentColor",
-                                    }),
-                                  }),
-                                }),
+                                
                               ],
                             }),
                             jsxRuntimeExports.jsx(Link, {
@@ -9118,10 +9062,7 @@ function Layout() {
                                       "true"
                                     );
                               },
-                              children: k(
-                                "footer.mintCta",
-                                "Mint Your Token Now & Join the Future"
-                              ),
+                              
                             }),
                           ],
                         }),
@@ -9360,7 +9301,7 @@ function Layout() {
                         className: "text-[14px] text-white/60 mb-4 md:mb-0",
                         children: k(
                           "footer.copyright",
-                          "© 2025 DeepSnitch. All Rights Reserved."
+                          "© 2026 DeepSnitch. All Rights Reserved."
                         ),
                       }),
                       jsxRuntimeExports.jsxs("div", {
