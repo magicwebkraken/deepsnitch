@@ -9031,7 +9031,7 @@ function Layout() {
                                   }),
                                 }),
                                 jsxRuntimeExports.jsx("a", {
-                                  href: "https://x.com/deepsnitchai",
+                                  href: "https://x.com/AI_Deepsnitch",
                                   className:
                                     "bg-dark2 hover:bg-dark3 rounded-[12px] p-3 md:p-3 p-2 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_15px_rgba(214,252,112,0.3)] group",
                                   target: "_blank",
