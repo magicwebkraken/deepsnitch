@@ -9331,53 +9331,6 @@ function Layout() {
                           "© 2026 DeepSnitch. All Rights Reserved."
                         ),
                       }),
-                      jsxRuntimeExports.jsxs("div", {
-                        className: "flex items-center space-x-4",
-                        children: [
-                          jsxRuntimeExports.jsx("button", {
-                            onClick: () => d(!0),
-                            className:
-                              "text-[14px] text-white/60 hover:text-[#D6FC70] transition-colors duration-200 bg-transparent border-none cursor-pointer",
-                            children: k("footer.termsOfSale", "Terms of Sale"),
-                          }),
-                          jsxRuntimeExports.jsx("span", {
-                            className: "text-white/30",
-                            children: "|",
-                          }),
-                          jsxRuntimeExports.jsx("button", {
-                            onClick: () => m(!0),
-                            className:
-                              "text-[14px] text-white/60 hover:text-[#D6FC70] transition-colors duration-200 bg-transparent border-none cursor-pointer",
-                            children: k(
-                              "footer.privacyPolicy",
-                              "Privacy Policy"
-                            ),
-                          }),
-                          jsxRuntimeExports.jsx("span", {
-                            className: "text-white/30",
-                            children: "|",
-                          }),
-                          jsxRuntimeExports.jsx("button", {
-                            onClick: () => f(!0),
-                            className:
-                              "text-[14px] text-white/60 hover:text-[#D6FC70] transition-colors duration-200 bg-transparent border-none cursor-pointer",
-                            children: k(
-                              "footer.risksDisclosure",
-                              "Risks Disclosure"
-                            ),
-                          }),
-                          jsxRuntimeExports.jsx("span", {
-                            className: "text-white/30",
-                            children: "|",
-                          }),
-                          jsxRuntimeExports.jsx("button", {
-                            onClick: () => v(!0),
-                            className:
-                              "text-[14px] text-white/60 hover:text-[#D6FC70] transition-colors duration-200 bg-transparent border-none cursor-pointer",
-                            children: k("footer.cookiePolicy", "Cookie Policy"),
-                          }),
-                        ],
-                      }),
                     ],
                   }),
                 ],
