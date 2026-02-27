@@ -9248,28 +9248,55 @@ function Layout() {
                                     children: jsxRuntimeExports.jsx(Link, {
                                       className:
                                         "text-[16px] leading-[24px] text-white/80 hover:text-[#D6FC70] transition-colors duration-200 hover:translate-x-1 inline-block",
-                                      to: "#",
-                                      onClick: (X) => {
-                                        X.preventDefault(), c(!0);
-                                      },
+                                      to: "https://t.me/AI_Deepsnitch",
                                       children: k(
-                                        "footer.howToBuy",
-                                        "How to Buy"
+                                        "footer.Telegram",
+                                        "Telegram"
                                       ),
                                     }),
                                   }),
                                   jsxRuntimeExports.jsx("li", {
                                     children: jsxRuntimeExports.jsx(Link, {
-                                      to: "/staking",
                                       className:
                                         "text-[16px] leading-[24px] text-white/80 hover:text-[#D6FC70] transition-colors duration-200 hover:translate-x-1 inline-block",
-                                      onClick: () => {
-                                        localStorage.setItem(
-                                          "scrollToStakingTop",
-                                          "true"
-                                        );
-                                      },
-                                      children: k("footer.staking", "Staking"),
+                                      to: "https://x.com/AI_Deepsnitch",
+                                      children: k(
+                                        "footer.Twitter",
+                                        "Twitter"
+                                      ),
+                                    }),
+                                  }),
+                                  jsxRuntimeExports.jsx("li", {
+                                    children: jsxRuntimeExports.jsx(Link, {
+                                      className:
+                                        "text-[16px] leading-[24px] text-white/80 hover:text-[#D6FC70] transition-colors duration-200 hover:translate-x-1 inline-block",
+                                      to: "https://dexscreener.com/ethereum/0x49366fD402DdED8adDa921B40640D6b2143A3F7a",
+                                      children: k(
+                                        "footer.Dexscreener",
+                                        "Dexscreener"
+                                      ),
+                                    }),
+                                  }),
+                                  jsxRuntimeExports.jsx("li", {
+                                    children: jsxRuntimeExports.jsx(Link, {
+                                      className:
+                                        "text-[16px] leading-[24px] text-white/80 hover:text-[#D6FC70] transition-colors duration-200 hover:translate-x-1 inline-block",
+                                      to: "https://www.dextools.io/app/ether/pair-explorer/0x9f36308dfd2fed45371d7bc13ce83f20b69d1694",
+                                      children: k(
+                                        "footer.Dextools",
+                                        "Dextools"
+                                      ),
+                                    }),
+                                  }),
+                                  jsxRuntimeExports.jsx("li", {
+                                    children: jsxRuntimeExports.jsx(Link, {
+                                      className:
+                                        "text-[16px] leading-[24px] text-white/80 hover:text-[#D6FC70] transition-colors duration-200 hover:translate-x-1 inline-block",
+                                      to: "https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0x49366fd402dded8adda921b40640d6b2143a3f7a",
+                                      children: k(
+                                        "footer.Uniswap",
+                                        "Uniswap"
+                                      ),
                                     }),
                                   }),
                                 ],
