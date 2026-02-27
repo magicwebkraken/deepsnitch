@@ -331,8 +331,8 @@ const b = [
     url: o,
     logo: `${o}/seo/logo.png`,
     sameAs: [
-      "https://twitter.com/DeepSnitchAI",
-      "https://t.me/DeepSnitchAI",
+      "https://twitter.com/AI_Deepsnitch",
+      "https://t.me/AI_Deepsnitch",
       "https://medium.com/@DeepSnitchAI",
     ],
     description:

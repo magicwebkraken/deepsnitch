@@ -3446,7 +3446,7 @@ const getClientIP = async () =>
                       className: "flex flex-col gap-3 mb-6",
                       children: [
                         jsxRuntimeExports.jsxs("a", {
-                          href: "https://twitter.com/deepsnitch",
+                          href: "https://twitter.com/AI_Deepsnitch",
                           target: "_blank",
                           rel: "noopener noreferrer",
                           className:
@@ -3465,7 +3465,7 @@ const getClientIP = async () =>
                           ],
                         }),
                         jsxRuntimeExports.jsxs("a", {
-                          href: "https://t.me/deepsnitch",
+                          href: "https://t.me/AI_Deepsnitch",
                           target: "_blank",
                           rel: "noopener noreferrer",
                           className:
@@ -9018,7 +9018,7 @@ function Layout() {
                               className: "flex gap-3 mt-6",
                               children: [
                                 jsxRuntimeExports.jsx("a", {
-                                  href: "https://t.me/deepsnitchofficial",
+                                  href: "https://t.me/AI_Deepsnitch",
                                   className:
                                     "bg-dark2 hover:bg-dark3 rounded-[12px] p-3 md:p-3 p-2 transition-all duration-300 hover:scale-110 hover:shadow-[0_0_15px_rgba(214,252,112,0.3)] group",
                                   target: "_blank",

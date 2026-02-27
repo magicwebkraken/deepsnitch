@@ -230,7 +230,7 @@ const f = `
       className: "flex items-center gap-3",
       children: [
         e.jsx("a", {
-          href: "https://t.me/deepsnitchofficial",
+          href: "https://t.me/AI_Deepsnitch",
           target: "_blank",
           rel: "noopener noreferrer",
           className: "opacity-60 hover:opacity-100 transition-opacity",
@@ -258,7 +258,7 @@ const f = `
       className: "flex items-center gap-2",
       children: [
         e.jsx("a", {
-          href: "https://t.me/deepsnitchofficial",
+          href: "https://t.me/AI_Deepsnitch",
           target: "_blank",
           rel: "noopener noreferrer",
           className: "opacity-60 hover:opacity-100 transition-opacity",
