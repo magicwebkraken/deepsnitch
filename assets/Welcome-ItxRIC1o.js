@@ -44,7 +44,7 @@ const I = ({ stakingInterface: c }) => {
         transition: { type: "spring", damping: 10, stiffness: 50, duration: 1 },
       },
     },
-    p = s("stake.welcome.title").split(" "),
+    p = s("STAKE $DSNT POWER THE AI TO EARN TOKENS").split(" "),
     o = [
       "$DSNT",
       "POWER",
@@ -121,7 +121,7 @@ const I = ({ stakingInterface: c }) => {
                           children: t.jsx("p", {
                             className:
                               "max-w-[650px] mb-0 text-lg md:text-xl lg:text-2xl text-white/80 leading-relaxed font-medium",
-                            children: s("stake.welcome.description"),
+                            children: s("Lock your $DSNT and let your tokens work for you. Stakers fuel the AI Syndicate—earning real rewards daily while powering and securing the network."),
                           }),
                         }),
                       ],
