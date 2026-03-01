@@ -8599,65 +8599,7 @@ function Layout() {
                     jsxRuntimeExports.jsxs("nav", {
                       className: "hidden lg:flex items-center gap-[14px]",
                       children: [
-                        jsxRuntimeExports.jsxs("div", {
-                          className:
-                            "flex space-x-2 md:space-x-3 lg:space-x-2 xl:space-x-4 2xl:space-x-5",
-                          children: [
-                            jsxRuntimeExports.jsxs(Link, {
-                              to: "/staking",
-                              className: `nav-link font-VT323 text-[22px] leading-[30px] tracking-[1px] text-white transition-all duration-300 ease-in-out relative 2xl:text-28 2xl:leading-36 ${
-                                _e("/staking") ? "active" : ""
-                              }`,
-                              onMouseEnter: prefetchOnHover(stakingImports),
-                              children: [
-                                jsxRuntimeExports.jsx("span", {
-                                  className: "nav-bracket",
-                                  children: "[",
-                                }),
-                                jsxRuntimeExports.jsx("span", {
-                                  className: "nav-text",
-                                  children: k("navigation.staking", "STAKING"),
-                                }),
-                                jsxRuntimeExports.jsx("span", {
-                                  className: "nav-bracket",
-                                  children: "]",
-                                }),
-                                jsxRuntimeExports.jsx("span", {
-                                  className: "nav-underline",
-                                }),
-                              ],
-                            }),
-                            jsxRuntimeExports.jsxs(Link, {
-                              to: "/dev-updates",
-                              className: `nav-link font-VT323 text-[22px] leading-[30px] tracking-[1px] text-white transition-all duration-300 ease-in-out relative 2xl:text-28 2xl:leading-36 ${
-                                _e("/dev-updates") ? "active" : ""
-                              }`,
-                              onMouseEnter: prefetchOnHover(devUpdatesImports),
-                              children: [
-                                jsxRuntimeExports.jsx("span", {
-                                  className: "nav-bracket",
-                                  children: "[",
-                                }),
-                                jsxRuntimeExports.jsx("span", {
-                                  className: "nav-text",
-                                  children: k(
-                                    "navigation.devUpdates",
-                                    "DEV UPDATES"
-                                  ),
-                                }),
-                                jsxRuntimeExports.jsx("span", {
-                                  className: "nav-bracket",
-                                  children: "]",
-                                }),
-                                jsxRuntimeExports.jsx("span", {
-                                  className: "nav-underline",
-                                }),
-                              ],
-                            }),
-                            
-                            
-                          ],
-                        }),
+
                         jsxRuntimeExports.jsx("div", {
                           className: "ml-1 flex-shrink-0",
                           children: jsxRuntimeExports.jsx(LanguageSwitcher, {}),
@@ -9109,14 +9051,6 @@ function Layout() {
                                             );
                                       },
                                       children: k("footer.presale", "Buy Now"),
-                                    }),
-                                  }),
-                                  jsxRuntimeExports.jsx("li", {
-                                    children: jsxRuntimeExports.jsx(Link, {
-                                      to: "/blog",
-                                      className:
-                                        "text-[16px] leading-[24px] text-white/80 hover:text-[#D6FC70] transition-colors duration-200 hover:translate-x-1 inline-block",
-                                      children: "Blog",
                                     }),
                                   }),
                                   jsxRuntimeExports.jsx("li", {
